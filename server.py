@@ -25,7 +25,7 @@ def detect():
         image = request.json['file']
         if image:
             imagename = f"{datetime.now().microsecond}.jpg"
-            with open(os.path.join("uploads", imagename), "w+") as fh:
+            with open("uploads" + imagename, "w+") as fh:
                 fh.write(base64.decodebytes(image.encode()))
             image = cv2.imread(os.path.join("uploads", imagename))
 
@@ -35,13 +35,13 @@ def detect():
 
             for (x, y, w, h) in right_eye:
                 r_eye = image[y:y + h, x:x + w]
-                r_eye = cv2.cvtColor(r_eye, cv2.COLOR_BGR2GRAY)
-                r_eye = cv2.resize(r_eye, (24, 24))
-                r_eye = r_eye / 255
-                r_eye = r_eye.reshape(24, 24, -1)
-                r_eye = np.expand_dims(r_eye, axis=0)
-                rpred = model.predict_classes(r_eye)
-                break
+            r_eye = cv2.cvtColor(r_eye, cv2.COLOR_BGR2GRAY)
+            r_eye = cv2.resize(r_eye, (24, 24))
+            r_eye = r_eye / 255
+            r_eye = r_eye.reshape(24, 24, -1)
+            r_eye = np.expand_dims(r_eye, axis=0)
+            rpred = model.predict_classes(r_eye)
+            break
 
             for (x, y, w, h) in left_eye:
                 l_eye = image[y:y + h, x:x + w]

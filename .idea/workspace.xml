@@ -40,7 +40,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.server">
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Drowsiness detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.server" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.wsgi" />
       </list>
     </recent_temporary>
@@ -130,22 +130,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="694" y="342" width="525" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591426561306" />
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1591426587394">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1591430572785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591426587394" />
-    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1591426587393">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572785" />
+    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1591430572782">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591426587393" />
-    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1591426587392">
+    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572782" />
+    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1591430572781">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591426587392" />
-    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1591426587394">
+    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572781" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1591430572783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591426587394" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572783" />
     <state x="483" y="142" width="948" height="793" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591379437308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
