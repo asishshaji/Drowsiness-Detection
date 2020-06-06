@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1030af11-5f03-41a9-8bd9-6bb652a172b5" name="Default Changelist" comment="" />
+    <list default="true" id="1030af11-5f03-41a9-8bd9-6bb652a172b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.test">
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Drowsiness detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.wsgi" />
       </list>
     </recent_temporary>
@@ -126,22 +129,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="694" y="342" width="525" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591426561306" />
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1591430572785">
+    <state x="693" y="282" width="528" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591435853371">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572785" />
-    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1591430572782">
+    <state x="693" y="282" width="528" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591435853371" />
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom" timestamp="1591435859560">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572782" />
-    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1591430572781">
+    <state width="1898" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591435859560" />
+    <state width="1898" height="286" key="GridCell.Tab.0.center" timestamp="1591435859560">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572781" />
-    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1591430572783">
+    <state width="1898" height="286" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591435859560" />
+    <state width="1898" height="286" key="GridCell.Tab.0.left" timestamp="1591435859560">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591430572783" />
+    <state width="1898" height="286" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591435859560" />
+    <state width="1898" height="286" key="GridCell.Tab.0.right" timestamp="1591435859560">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1898" height="286" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591435859560" />
     <state x="483" y="142" width="948" height="793" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591379437308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

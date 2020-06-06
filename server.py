@@ -25,8 +25,8 @@ def detect():
         image = request.json['file']
         if image:
             imagename = f"{datetime.now().microsecond}.jpg"
-            with open("uploads" + imagename, "w+") as fh:
-                fh.write(str(base64.decodebytes(image.encode())))
+            with open(os.path.join("uploads", imagename), "wb") as fh:
+                fh.write(base64.decodebytes(image.encode()))
             image = cv2.imread(os.path.join("uploads", imagename))
 
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
