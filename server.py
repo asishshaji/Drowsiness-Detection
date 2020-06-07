@@ -26,9 +26,11 @@ def detect():
         image = request.json['file']
         if image:
             imagename = f"{datetime.now().microsecond}.jpg"
-            with open(os.path.join("uploads", imagename), "w+") as fh:
-                fh.write(base64.decodebytes(image.encode()))
-            image = cv2.imread(os.path.join("uploads", imagename))
+            # with open(os.path.join("uploads", imagename), "w+") as fh:
+            #     fh.write(base64.decodebytes(image.encode()))
+            img = base64.decodebytes(image.encode())
+            npimg = np.fromstring(img, dtype=np.uint8)
+            image = cv2.imdecode(npimg, 1)
 
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             left_eye = leye.detectMultiScale(gray)
