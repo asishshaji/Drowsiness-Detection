@@ -20,14 +20,13 @@ app = Flask(__name__)
 CORS(app)
 
 
-# curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@/home/asish/Desktop/me.jpg" https://drowsinessapiproject.herokuapp.com/detect
 @app.route('/detect', methods=["GET", "POST"])
 def detect():
     if request.method == "POST":
         image = request.json['file']
         if image:
             imagename = f"{datetime.now().microsecond}.jpg"
-            with open(os.path.join("uploads", imagename), "wb") as fh:
+            with open(os.path.join("uploads", imagename), "w+") as fh:
                 fh.write(base64.decodebytes(image.encode()))
             image = cv2.imread(os.path.join("uploads", imagename))
 
