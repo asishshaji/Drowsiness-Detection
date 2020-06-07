@@ -6,8 +6,6 @@ import os
 import base64
 from datetime import datetime
 import glob
-import tensorflow as tf
-import keras
 from flask_cors import CORS
 
 os.environ['KERAS_BACKEND'] = 'theano'
@@ -17,14 +15,9 @@ leye = cv2.CascadeClassifier(
 reye = cv2.CascadeClassifier(
     'haarcascadefiles/haarcascade_righteye_2splits.xml')
 model = load_model('models/cnnCat2.h5')
-graph = tf.get_default_graph()
 
 app = Flask(__name__)
 CORS(app)
-
-session = keras.backend.get_session()
-init = tf.global_variables_initializer()
-session.run(init)
 
 
 # curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@/home/asish/Desktop/me.jpg" https://drowsinessapiproject.herokuapp.com/detect
@@ -50,8 +43,8 @@ def detect():
                 r_eye = r_eye / 255
                 r_eye = r_eye.reshape(24, 24, -1)
                 r_eye = np.expand_dims(r_eye, axis=0)
-                with graph.as_default():
-                    rpred = model.predict_classes(r_eye)[0]
+
+                rpred = model.predict_classes(r_eye)[0]
                 break
 
             for (x, y, w, h) in left_eye:
@@ -61,8 +54,7 @@ def detect():
                 l_eye = l_eye / 255
                 l_eye = l_eye.reshape(24, 24, -1)
                 l_eye = np.expand_dims(l_eye, axis=0)
-                with graph.as_default():
-                    lpred = model.predict_classes(l_eye)[0]
+                lpred = model.predict_classes(l_eye)[0]
                 break
             files = glob.glob("uploads/*")
             for f in files:
