@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1030af11-5f03-41a9-8bd9-6bb652a172b5" name="Default Changelist" comment="" />
+    <list default="true" id="1030af11-5f03-41a9-8bd9-6bb652a172b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +41,28 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.detect">
+    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Drowsiness detection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Drowsiness detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,27 +76,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Drowsiness detection" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,11 +107,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.detect" />
         <item itemvalue="Python.server" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.wsgi" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -122,33 +130,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="694" y="342" width="525" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591426561306">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="694" y="359" width="560" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591630326733">
+      <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="694" y="342" width="525" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591426561306" />
+    <state x="694" y="359" width="560" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1920.1049@0.31.1920.1049" timestamp="1591630326733" />
     <state x="693" y="282" width="528" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591435853371">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="693" y="282" width="528" height="506" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591435853371" />
-    <state width="1888" height="285" key="GridCell.Tab.0.bottom" timestamp="1591522748823">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1866" height="274" key="GridCell.Tab.0.bottom" timestamp="1591682859871">
+      <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state width="1888" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591522748823" />
-    <state width="1888" height="285" key="GridCell.Tab.0.center" timestamp="1591522748822">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1866" height="274" key="GridCell.Tab.0.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1591682859871" />
+    <state width="1866" height="274" key="GridCell.Tab.0.center" timestamp="1591682859871">
+      <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state width="1888" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591522748822" />
-    <state width="1888" height="285" key="GridCell.Tab.0.left" timestamp="1591522748822">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1866" height="274" key="GridCell.Tab.0.center/0.31.1920.1049@0.31.1920.1049" timestamp="1591682859871" />
+    <state width="1866" height="274" key="GridCell.Tab.0.left" timestamp="1591682859871">
+      <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state width="1888" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591522748822" />
-    <state width="1888" height="285" key="GridCell.Tab.0.right" timestamp="1591522748822">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1866" height="274" key="GridCell.Tab.0.left/0.31.1920.1049@0.31.1920.1049" timestamp="1591682859871" />
+    <state width="1866" height="274" key="GridCell.Tab.0.right" timestamp="1591682859871">
+      <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state width="1888" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591522748822" />
+    <state width="1866" height="274" key="GridCell.Tab.0.right/0.31.1920.1049@0.31.1920.1049" timestamp="1591682859871" />
     <state x="483" y="142" width="948" height="793" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591379437308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="483" y="142" width="948" height="793" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591379437308" />
+    <state x="623" y="215" width="672" height="678" key="search.everywhere.popup" timestamp="1591681727194">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="623" y="215" width="672" height="678" key="search.everywhere.popup/0.31.1920.1049@0.31.1920.1049" timestamp="1591681727194" />
   </component>
 </project>

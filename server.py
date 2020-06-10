@@ -4,16 +4,14 @@ from keras.models import load_model
 import numpy as np
 import os
 import base64
-from datetime import datetime
 import glob
 from flask_cors import CORS
 
 os.environ['KERAS_BACKEND'] = 'theano'
 
-leye = cv2.CascadeClassifier(
-    'haarcascadefiles/haarcascade_lefteye_2splits.xml')
-reye = cv2.CascadeClassifier(
-    'haarcascadefiles/haarcascade_righteye_2splits.xml')
+leye = cv2.CascadeClassifier('haarcascadefiles/haarcascade_lefteye_2splits.xml')
+reye = cv2.CascadeClassifier('haarcascadefiles/haarcascade_righteye_2splits.xml')
+
 model = load_model('models/cnnCat2.h5')
 
 app = Flask(__name__)
@@ -25,9 +23,6 @@ def detect():
     if request.method == "POST":
         image = request.json['file']
         if image:
-            imagename = f"{datetime.now().microsecond}.jpg"
-            # with open(os.path.join("uploads", imagename), "w+") as fh:
-            #     fh.write(base64.decodebytes(image.encode()))
             img = base64.decodebytes(image.encode())
             npimg = np.fromstring(img, dtype=np.uint8)
             image = cv2.imdecode(npimg, 1)
